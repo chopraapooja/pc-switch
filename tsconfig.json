@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "es2015",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "rootDir": "./",
+    "strict": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowJs": false,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es6",
+      "es7",
+      "es2017.object"
+    ],
+    "noUnusedLocals": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "@types",
+      "typings"
+    ]
+  },
+  "include": [
+    "@types/**/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}
